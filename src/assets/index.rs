@@ -1,0 +1,34 @@
+pub fn get_index_json() -> &'static str {
+        r#"[
+    {
+        "nombre":"Javi",
+        "edad":18,
+        "ciudad":"Santiago",
+        "imagen":"javi.jpg"
+    },
+    {
+        "nombre":"Podro",
+        "edad":29,
+        "ciudad":"Santiago",
+        "imagen":"podro.jpg"
+    },
+    {
+        "nombre":"Maria",
+        "edad":22,
+        "ciudad":"Valparaiso",
+        "imagen":"maria.jpg"
+    },
+    {
+        "nombre":"Luis",
+        "edad":34,
+        "ciudad":"Concepcion",
+        "imagen":"luis.jpg"
+    },
+    {
+        "nombre":"Ana",
+        "edad":27,
+        "ciudad":"Antofagasta",
+        "imagen":"ana.jpg"
+    }
+]"#
+}
